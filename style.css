@@ -23,6 +23,8 @@ body{
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .infobtn:hover{
@@ -30,21 +32,13 @@ body{
     transition: 0.25s;
     width: 255px;
     height: 42px;
+    color: white;
 }
 .infobtn:active{
     background-color: blue;
 }
 
-.linkName:active .infobtn{
-    background-color: blue;
-}
 
-
-button:hover a {
-    color: white;
-    transition: 0.25s;
-    font-size: 16px;
- }
 
 
 
@@ -81,9 +75,52 @@ button:hover a {
     object-fit: cover;
 }
 
-.linkName{
-    color: black;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: bold;
+
+@media (max-width: 480px){
+    #container{
+        width: 100%;
+        height: 100%;
+        border-radius:0;
+        padding: 10px;
+    }
+
+    .infobtn{
+        width: 330px;
+        height: 60px;
+        margin-top: 10px;
+        border-radius: 18px;
+    }
+
+    .infobtn:hover{
+        width: 335px;
+        height: 60px;
+    }
+
+    #name{
+        font-size: 36px;
+        margin-bottom: 0;
+        margin-top: 18px;
+    }
+
+    #location{
+        font-size: 18px;
+        margin-top: 8px;
+    }
+
+    .Profilepic{
+        width: 130px;
+        height: 130px;
+    }
+
+    #picDiv{
+        width: 130px;
+        height: 130px;
+        top: 3%;
+        left: 33%;
+    }
+
+    #stack{
+        font-size: 19px;
+    }
 }
+
