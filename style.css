@@ -92,7 +92,7 @@ body{
         height: 60px;
         margin-top: 10px;
         border-radius: 18px;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .infobtn:hover{
@@ -103,7 +103,7 @@ body{
     #name{
         font-size: 36px;
         margin-bottom: 0;
-        margin-top: 18px;
+        margin-top: 40px;
     }
 
     #location{
