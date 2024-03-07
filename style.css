@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: black;
 }
 
 #container{
@@ -25,7 +25,8 @@ body{
     cursor: pointer;
     font-size: 15px;
     font-weight: bold;
-    color: white;
+    color: black;
+    background-color: white;
 }
 
 .infobtn:hover{
@@ -37,6 +38,7 @@ body{
 }
 .infobtn:active{
     background-color: blue;
+    color: white;
 }
 
 
@@ -90,6 +92,7 @@ body{
         height: 60px;
         margin-top: 10px;
         border-radius: 18px;
+        font-size: 22px;
     }
 
     .infobtn:hover{
